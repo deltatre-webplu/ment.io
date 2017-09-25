@@ -700,8 +700,6 @@ angular.module('mentio')
                     coordinates = getContentEditableCaretPosition(ctx, mentionInfo.mentionPosition);
                 }
 
-                console.log('v2', coordinates, $window);
-
                 // Move the button into place.
                 var css = {
                     left: coordinates.left + 'px',
